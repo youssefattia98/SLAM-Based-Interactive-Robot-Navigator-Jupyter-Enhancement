@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+	<param name="obstacle_avoidance" value="false" />
+	<node name="case_one" pkg="ass3" type="case_one.py"  />
+	<node name="case_three" pkg="ass3" type="case_three.py"   />	
+</launch>
