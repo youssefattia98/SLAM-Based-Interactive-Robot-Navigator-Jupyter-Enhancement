@@ -90,6 +90,6 @@ widgets.FloatSlider(
 
 Better on Native linux
 ----------------------
-As I have mentioned in the begining of this readme it is recommened to use the docker image of the course to easin the setup of everything, but after testig over and over it was noticed that the docker image consmues 100% of the CPU this is due to the simualtion need to Garphical processing and there is no GPU connected to the docker. After some research it was noted that there is no possible way to connect the GPU to docker if docker is running on windows but it is possible docker is running on linux. However the packges that are on the internet for that case are not really user frinedly and moreover it usless to have a linux docker image 
+As I have mentioned in the beginning of this readme it is recommended to use the docker image of the course to ease the setup of everything, but after testing over and over it was noticed that the docker image consumes 100% of the CPU this is due to the simulation need to Graphical processing and there is no GPU connected to the docker. After some research it was noted that there is no possible way to connect the GPU to docker if docker is running on windows, but it is possible docker is running on Linux. However, the packages that are on the internet for that case are not really user friendly and moreover it useless to have a Linux docker image on a native Linux system so at this point my conclusion is: **Try this repo on Native Linux system and not the course docker image.**
 
 
