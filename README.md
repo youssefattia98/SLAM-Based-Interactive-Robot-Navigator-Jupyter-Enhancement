@@ -46,8 +46,14 @@ This speed up video shows a testing of each cell of the Jupyter code and how the
 
 3)Future Improvments. 
 ================================
-run on real linux
-add slider
-contenct gpu to docker image
+Add speed slider
+----------------------
+
+It was noticed that the robot control in the second and the third choice was too slow and the user may want to increase the robot speed, so it better for future improvemnts to add a slider to control the robot speed. It will be simple modification in the following lines:
+
+Better on Native linux
+----------------------
+Connect GPU to Docker
+----------------------
 
 
