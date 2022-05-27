@@ -51,12 +51,45 @@ Add speed slider
 
 It was noticed that the robot control in the second and the third choice was too slow and the user may want to increase the robot speed, so it better for future improvemnts to add a slider to control the robot speed. It will be simple modification in the following lines:
 ```python
-print("1) autonomously reach a x,y coordinate provided by the user")
+    if direction == 1:
+        #Front direction
+        vel.linear.x = 0.5
+        vel.angular.z = 0.0
+    elif direction == 2:
+        #Left direction
+        vel.linear.x = 0.0
+        vel.angular.z = 0.5
+    elif direction == 3:
+        #Right direction
+        vel.linear.x = 0.0
+        vel.angular.z = -0.5
+    elif direction == 4:
+        #Back direction
+        vel.linear.x = -0.5
+        vel.angular.z = -0.0
+    elif direction ==5:
+        #stop
+        vel.linear.x = -0.0
+        vel.angular.z = -0.0
+```
+in which `vel.linear.x` and `vel.angular.z` should be a global varbile controlled with a slider. Here is a simple example of a slider that can be added:
+```python
+widgets.FloatSlider(
+    value=0.5,
+    min=0,
+    max=2.0,
+    step=0.1,
+    description='Test:',
+    disabled=False,
+    continuous_update=False,
+    orientation='horizontal',
+    readout=True,
+    readout_format='.1f',
+)
 ```
 
 Better on Native linux
 ----------------------
-Connect GPU to Docker
-----------------------
+As I have mentioned in the begining of this readme it is recommened to use the docker image of the course to easin the setup of everything, but after testig over and over it was noticed that the docker image consmues 100% of the CPU this is due to the simualtion need to Garphical processing and there is no GPU connected to the docker. After some research it was noted that there is no possible way to connect the GPU to docker if docker is running on windows but it is possible docker is running on linux. However the packges that are on the internet for that case are not really user frinedly and moreover it usless to have a linux docker image 
 
 
