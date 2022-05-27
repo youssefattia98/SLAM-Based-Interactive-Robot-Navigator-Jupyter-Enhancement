@@ -40,7 +40,9 @@ $ docker run -it --name my_jupyter -p 6080:80 -p 5900:5900 -p 8888:8888 carms84/
 2)Final Output. 
 ================================
 
-https://user-images.githubusercontent.com/69837845/169133911-7c5d3031-20aa-4a92-9878-ef7c49fbbab3.mp4  
+
+https://user-images.githubusercontent.com/69837845/170798997-f444bbc0-ee9c-4d64-b8b8-850611416786.mp4
+
 
 This speed up video shows a testing of each cell of the Jupyter code and how the robot is controlled throw it.
 
