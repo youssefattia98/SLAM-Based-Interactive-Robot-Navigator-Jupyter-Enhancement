@@ -1,6 +1,6 @@
 # Research Track II Assignment 1.2 description:
 
-Assignment 1.2 for Research  II course, The assigemnt depends on jupter notbook to control previous simulation of Research Track Assignment 3 (please check previous repo):   
+Assignment 1.2 for Research  II course, The assigemnt depends on Jupyter notbook to control previous simulation of Research Track Assignment 3 (please check previous repo):   
 https://github.com/youssefattia98/Research-Track-I-3.git       
 This repo consists of the following points:  
  1)How to Setup the Simulator and Jupyter.   
@@ -37,9 +37,17 @@ $ sudo http://localhost:8888
 $ docker run -it --name my_jupyter -p 6080:80 -p 5900:5900 -p 8888:8888 carms84/noetic_ros2 
 ```
 
-Future imporvments:
+2)Final Output. 
+================================
+
+https://user-images.githubusercontent.com/69837845/169133911-7c5d3031-20aa-4a92-9878-ef7c49fbbab3.mp4  
+
+This speed up video shows a testing of each cell of the Jupyter code and how the robot is controlled throw it.
+
+3)Future Improvments. 
+================================
 run on real linux
 add slider
 contenct gpu to docker image
 
-https://user-images.githubusercontent.com/69837845/169133911-7c5d3031-20aa-4a92-9878-ef7c49fbbab3.mp4
+
