@@ -50,6 +50,9 @@ Add speed slider
 ----------------------
 
 It was noticed that the robot control in the second and the third choice was too slow and the user may want to increase the robot speed, so it better for future improvemnts to add a slider to control the robot speed. It will be simple modification in the following lines:
+```python
+print("1) autonomously reach a x,y coordinate provided by the user")
+```
 
 Better on Native linux
 ----------------------
