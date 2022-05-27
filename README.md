@@ -10,9 +10,6 @@ This repo consists of the following points:
 1)How to Setup the Simulator and Jupyter.  
 ================================
 
-Installing and running
-----------------------
-
 The simulator requires specific ROS version and I recommend using the Docker image dedicated to this course to make installation and running easier. After cloning the repo to the ROS work space and building it:      
 ```bash
 $ catkin_make
