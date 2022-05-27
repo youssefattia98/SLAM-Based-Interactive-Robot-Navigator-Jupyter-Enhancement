@@ -1,6 +1,6 @@
 # Research Track II Assignment 1.2 description:
 
-Assignment 1.2 for Research  II course, The assigemnt is a depends on jupter notbook to control previous simulation of Research Track Assignment 3 (please check previous repo): https://github.com/youssefattia98/Research-Track-I-3.git       
+Assignment 1.2 for Research  II course, The assigemnt depends on jupter notbook to control previous simulation of Research Track Assignment 3 (please check previous repo):   https://github.com/youssefattia98/Research-Track-I-3.git       
 This repo consists of the following points:  
  1)How to Setup the Simulator and Jupyter.   
  2)Final output.  
