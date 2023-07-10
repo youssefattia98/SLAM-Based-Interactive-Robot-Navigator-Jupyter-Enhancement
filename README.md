@@ -1,4 +1,4 @@
-# SLAM-Based Interactive Robot Navigator: Jupyter Enhancement:
+# SLAM-Based Interactive Robot Navigator - Jupyter Enhancement:
 
 The project depends on Jupyter notbook to control previous simulation of SLAM-Based Interactive Robot Navigator (please check previous repo):   
 https://github.com/youssefattia98/SLAM-Based-Interactive-Robot-Navigator.git    
