@@ -1,7 +1,7 @@
-# Research Track II Assignment 1.2 description:
+# SLAM-Based Interactive Robot Navigator: Jupyter Enhancement:
 
-Assignment 1.2 for Research  II course, The assigemnt depends on Jupyter notbook to control previous simulation of Research Track Assignment 3 (please check previous repo):   
-https://github.com/youssefattia98/Research-Track-I-3.git       
+The project depends on Jupyter notbook to control previous simulation of SLAM-Based Interactive Robot Navigator (please check previous repo):   
+https://github.com/youssefattia98/SLAM-Based-Interactive-Robot-Navigator.git    
 This repo consists of the following points:  
  1)How to Setup the Simulator and Jupyter.   
  2)Final output.  
